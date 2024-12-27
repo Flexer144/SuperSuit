@@ -1,0 +1,90 @@
+.section-two_text{
+  font-family: Montserrat Alternates;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 58.8px;
+  text-align: center;
+}
+.section-two{
+  position: relative;
+  top: 900px;
+}
+
+
+
+.Grid-product-main{
+  margin: 64px 10px 0px 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(286px, 1fr));
+  gap: 15px;
+}
+
+.card{
+  height:auto;
+}
+.image img{
+  width: 100%;
+  margin-bottom: -4px;
+}
+.description{
+  background-color: rgb(250, 250, 250);
+  width: 100%;
+  height: 279px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.card-name-text{
+  font-family: Montserrat Alternates;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: center;
+}
+.suit-size-text{
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+}
+.suit-price-text{
+  font-family: Montserrat Alternates;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25.2px;
+  text-align: center;  
+}
+.button-view{
+  width: 80%;
+  padding: 13px 0;
+  background-color: rgba(255, 202, 51, 1);
+
+  font-family: Montserrat Alternates;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.94px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+.button-view:hover{
+  background-color: rgb(253, 190, 14)
+}
+.suit-stock-text{
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  text-align: center;
+}
+.not-stock{
+  color: rgb(184, 37, 37);
+}
