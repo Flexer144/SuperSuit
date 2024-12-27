@@ -12,10 +12,12 @@ body{
   margin: 0 auto;
   max-width: 1210px;
 }
+
+
 .background img{
   position: absolute;
   right: 0;
-  z-index: 0;
+  z-index: 2;
 }
 .main{
   position: absolute;
@@ -86,6 +88,31 @@ body{
 .main_image{
   margin-top: 76px;
 }
+footer{
+  height: 93px;
+  position: relative;
+  right: 0;
+  left: 0;
+  bottom: -1000px;
+  background-color: white;
+}
+.div-footer{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 25px;
+}
+.div-footer a{
+  text-decoration: none;
+}
+.text-logo-footer{
+  margin-left: 10px;
+}
+.text-footer-number{
+  margin-right: 10px;
+}
+
+
 @media screen and (width <= 1120px){
   .main_image{
     display: none;
