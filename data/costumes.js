@@ -56,28 +56,28 @@ export const suit = [
   stock: 1
 },
 {
-  id: '2673077791',
+  id: '26738577791',
   image: 'imageSuit/SuperMan.png',
   name: 'Супермен',
   price: '700',
   stock: 4
 },
 {
-  id: '2983647791',
+  id: '29123647791',
   image: 'imageSuit/Obi.png',
   name: 'Оби Ван Кеноби',
   price: '1000',
   stock: 1
 },
 {
-  id: '2128979153',
+  id: '2128943153',
   image: 'imageSuit/spiderMan.png',
   name: 'Человек-паук',
   price: '1000',
   stock: 1
 },
 {
-  id: '2363897913',
+  id: '23612397913',
   image: 'imageSuit/Batman.png',
   name: 'Бэтмен',
   price: '1500',

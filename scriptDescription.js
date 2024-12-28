@@ -1,3 +1,16 @@
+import { suit } from "./data/costumes.js";
+
+const costumeId = sessionStorage.getItem('costumeId')
+let costume = {};
+let HTML = ''
+
+suit.forEach((suit) => {
+  if(suit.id === costumeId){
+    costume = suit
+  }
+})
+
+
 
 
 function changeImage(imageSrc) {
@@ -8,7 +21,6 @@ function changeImage(imageSrc) {
       console.error('Element with id "currentImage" not found');
   }
 }
-
 document.querySelectorAll('.thumbnail').forEach(thumbnail => {
     thumbnail.addEventListener('click', () => {
         changeImage(thumbnail.src);
@@ -16,5 +28,3 @@ document.querySelectorAll('.thumbnail').forEach(thumbnail => {
 });
 
 
-const costumeId = sessionStorage.getItem('costumeId')
-console.log(costumeId)
