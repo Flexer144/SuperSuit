@@ -102,7 +102,7 @@ body{
 }
 
 
-footer{
+.main-footer{
   height: 93px;
   position: relative;
   right: 0;
@@ -196,60 +196,3 @@ footer{
     text-align: center;
   }
 }
-
-/*
-.text-logo{
-  font-family: Montserrat Alternates;
-  font-size: 32px;
-  font-weight: 800;
-  line-height: 39.01px;
-  color: rgba(255, 202, 51, 1);
-}
-.text-logo span{
- color: black;
-}
-.text-head-number{
-  font-family: Montserrat Alternates;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44.8px;
-}
-.head{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-.head a{
-  text-decoration: none;
-}
-.section-one_big-text{
-  font-family: Montserrat Alternates;
-  font-size: 52px;
-  font-weight: 700;
-  line-height: 72.8px;
-  max-width: 613px;
-  text-align: left;
-  max-width: 613px;
-  margin-top: 156px;
-}
-.section-one_big-text span{
-  color: rgba(255, 202, 51, 1);
-}
-.button-pick-up{
-  font-family: Montserrat Alternates;
-  font-size: 18px;
-  font-weight: 700;
-  cursor: pointer;
-  padding: 13px 29px;
-  border: none;
-  color: white;
-  background-color: rgba(255, 202, 51, 1);
-  border-radius: 10px;
-  margin-top: 48px;
-}
-.button-pick-up:hover{
-  background-color: rgb(253, 190, 14);
-}
-*/

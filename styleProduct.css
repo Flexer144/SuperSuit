@@ -48,12 +48,13 @@
   text-align: center;  
 }
 .button-view{
-  width: 80%;
-  padding: 13px 0;
+  max-width: 300px;
+  padding: 13px 20px;
+  white-space: nowrap;
   background-color: rgba(255, 202, 51, 1);
 
   font-family: Montserrat Alternates;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   line-height: 21.94px;
   text-align: center;

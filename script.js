@@ -24,7 +24,9 @@ suit.forEach((suit) => {
           <p class="card-name-text">${suit.name}</p>
           <p class="suit-size-text">Размеры: 48-52</p>
           <p class="suit-price-text">${suit.price}₽/день.</p>
-          <button class="button-view">Быстрый просмотр</button>
+          <a href="descriptionSuit.html">
+            <button data-suit-id="${suit.id}" class="button-view">Быстрый просмотр</button>
+          </a>
           <p class="suit-stock-text ${stockClass}">${stock}</p>
         </div>
       </div>
@@ -33,3 +35,22 @@ suit.forEach((suit) => {
 });
 
 document.querySelector('.Grid-product-main').innerHTML = suitHTML;
+
+document.querySelectorAll('.button-view')
+  .forEach((suit) => {
+    suit.addEventListener('click', () => {
+      const suitId = suit.dataset.suitId;
+      sessionStorage.setItem('costumeId', suitId)
+    })
+  })
+
+function two() {
+  document.querySelectorAll('[data-scroll-from]').forEach(function(button) {
+    button.addEventListener('click', function() {
+      const targetElement = this.getAttribute('data-scroll-to');
+      document.getElementById(targetElement).scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+}
+two();
+
