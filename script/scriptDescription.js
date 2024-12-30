@@ -1,14 +1,16 @@
-import { suit } from "./data/costumes.js";
+import { suit } from "../data/costumes.js";
 
 const costumeId = sessionStorage.getItem('costumeId')
-let costume = {};
+export let costume = {};
 let HTML = ''
 
 suit.forEach((suit) => {
   if(suit.id === costumeId){
     costume = suit
+    sessionStorage.setItem('costumeName', JSON.stringify(costume))
   }
 })
+
 
 let stockClass = ''
 let stock = ''
@@ -55,7 +57,9 @@ HTML = `
         <p class="size-suit">48-52</p>
       </div>
       <div class="sumbit">
+      <a href="popup.html">
         <button class="button-submit ${notClick}">Оставить заявку</button>
+      </a>
         <p class="${stockClass}">${stock}</p>
       </div>
     </div>

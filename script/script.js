@@ -1,4 +1,4 @@
-import { suit } from "./data/costumes.js";
+import { suit } from "../data/costumes.js";
 
 
 let suitHTML = '';
