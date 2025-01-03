@@ -12,6 +12,14 @@ body{
   margin: 0 auto;
   max-width: 1210px;
 }
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color:rgba(255, 202, 51, 1);
+}
+
 
 
 .background img{
