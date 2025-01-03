@@ -77,7 +77,8 @@ const check = document.getElementById('check-box')
     if(isNaN(phone)){
       alert('Введите корректный номер телефона')
     }else{
-      let existingApplications = JSON.parse(localStorage.getItem('application'))
+      let existingApplications = JSON.parse(localStorage.getItem('application')) || []
+
       existingApplications.push({
         nameSuit: costume.name,
         name: inputName.value,
