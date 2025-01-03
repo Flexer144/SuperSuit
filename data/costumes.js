@@ -105,7 +105,7 @@ export const suit = [
 },
 {
   id: '26738577791',
-  image: 'imageSuit/SuperMan.png',
+  image: 'imageSuit/Superman.png',
   name: 'Супермен',
   complectSuit: 'Костюм, маска, плащ, обувь',
   description: {
