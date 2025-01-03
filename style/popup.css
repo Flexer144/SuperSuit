@@ -26,6 +26,11 @@ img{
   top: 30px;
 }
 
+.enabled{
+ cursor: pointer;
+ background-color: rgba(247, 189, 41, 1);
+}
+
 
 .name-suit{
   font-family: Montserrat Alternates;
@@ -138,10 +143,11 @@ img{
   border: 1px solid rgba(229, 229, 229, 1);
 }
 
-.button-apply{
+
+.main button{
   width: 86%;
   height: 48px;
-  background-color:rgba(247, 189, 41, 1);
+  background-color:rgb(221, 166, 25);
 
   font-family: Montserrat Alternates;
   font-size: 18px;
@@ -155,4 +161,11 @@ img{
   border: none;
   border-radius: 8px;
   margin-top: 32px;
+}
+.button-apply{
+  cursor: not-allowed;
+}
+.button-apply.enabled{
+  cursor: pointer;
+  background-color: rgba(247, 189, 41, 1);
 }

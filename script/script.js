@@ -54,3 +54,5 @@ function two() {
 }
 two();
 
+let application = JSON.parse(localStorage.getItem('application'))
+console.log(application)
