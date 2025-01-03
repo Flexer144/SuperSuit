@@ -87,7 +87,7 @@ const check = document.getElementById('check-box')
       })
       localStorage.setItem('application', JSON.stringify(existingApplications))
       alert(`${inputName.value}, благодорим за оставленную заявку! \nВ ближайшее время с вами свяжутся.`)
-      window.location.href = '/index.html'
+      window.location.href = 'index.html'
       inputName.value = '';
       inputPhone.value = '';
       rentalDuration.value = '';
